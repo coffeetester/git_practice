@@ -1,4 +1,4 @@
-To log-into your github account with Git Bash first generate your ssh key in git bash by typing:
+// To log-into your github account with Git Bash first generate your ssh key in git bash by typing:
 
 ssh-keygen -t ed25519 -C "your_email@example.com"
 
@@ -16,8 +16,6 @@ cd into an empty directory using Git Bash and type:
 */
 
 git init
-
-
 git remote add origin “https://github.com/username/repository_name.git”
 
 /*
@@ -27,7 +25,7 @@ you should be forwarded to an authentication page and select ok/authorize/yes.
 
 If this is successful then the next step should download your project into your initialized folder.
 */
-git pull origin main
 
+git pull origin main
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
