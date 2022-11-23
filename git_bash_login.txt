@@ -6,11 +6,11 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 using file explorer go into:
 C:\Users\username\.ssh
 
-open id_ed25519.pub in notepad and copy it’s contents and paste it into:
-https://github.com/settings/ssh/new
+open id_ed25519.pub in notepad and copy it’s contents and paste it into: https://github.com/settings/ssh/new
 and save.
 
-On your Github account copy any .git link by clicking the green “Code” dropdown list and copy the link under the tabs Local > HTTPS
+On your Github account copy any .git link by clicking the green “Code” dropdown list and copy the link 
+under the tabs Local > HTTPS
 
 cd into an empty directory using Git Bash and type:
 */
@@ -22,7 +22,8 @@ git remote add origin “https://github.com/username/repository_name.git”
 
 /*
 A window should pop-up prompting you to log-in.
-Click to log-in using your browser and if you’re already logged in (which is assumed if you’re following along), you should be forwarded to an authentication page and select ok/authorize/yes.
+Click to log-in using your browser and if you’re already logged in (which is assumed if you’re following along),
+you should be forwarded to an authentication page and select ok/authorize/yes.
 
 If this is successful then the next step should download your project into your initialized folder.
 */
